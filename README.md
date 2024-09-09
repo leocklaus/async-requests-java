@@ -30,10 +30,10 @@ This spring project aims to create a simple API that retrieve some Pókemon info
 
 ## Endpoints
 
-* /cf?vt=false -> comparable future without virtual threads
-* /cf?vt=true -> comparable future with virtual threads
-* /sc -> structured concurrency
-* /sync -> sync request
+* ```/cf?vt=false``` -> completable future without virtual threads
+* ```/cf?vt=true``` -> completable future with virtual threads
+* ```/sc``` -> structured concurrency
+* ```/sync``` -> sync request
 
 ## Results
 
